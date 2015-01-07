@@ -12,6 +12,8 @@
 		880DE5851A530C320032EC58 /* church-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 880DE5821A530C320032EC58 /* church-bg.png */; };
 		880DE5861A530C320032EC58 /* church-fg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 880DE5831A530C320032EC58 /* church-fg1.png */; };
 		880DE5871A530C320032EC58 /* church-fg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 880DE5841A530C320032EC58 /* church-fg2.png */; };
+		880DE58A1A5D78920032EC58 /* portrait-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 880DE5881A5D78920032EC58 /* portrait-bg.png */; };
+		880DE58B1A5D78920032EC58 /* portrait-fg.png in Resources */ = {isa = PBXBuildFile; fileRef = 880DE5891A5D78920032EC58 /* portrait-fg.png */; };
 		88A38B461A50020700A6544F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A38B451A50020700A6544F /* AppDelegate.swift */; };
 		88A38B481A50020700A6544F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A38B471A50020700A6544F /* ViewController.swift */; };
 		88A38B4B1A50020700A6544F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88A38B491A50020700A6544F /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 		880DE5821A530C320032EC58 /* church-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "church-bg.png"; sourceTree = "<group>"; };
 		880DE5831A530C320032EC58 /* church-fg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "church-fg1.png"; sourceTree = "<group>"; };
 		880DE5841A530C320032EC58 /* church-fg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "church-fg2.png"; sourceTree = "<group>"; };
+		880DE5881A5D78920032EC58 /* portrait-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "portrait-bg.png"; sourceTree = "<group>"; };
+		880DE5891A5D78920032EC58 /* portrait-fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "portrait-fg.png"; sourceTree = "<group>"; };
 		88A38B401A50020700A6544F /* ParallaxImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParallaxImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A38B441A50020700A6544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88A38B451A50020700A6544F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		880DE57B1A52F0B10032EC58 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				880DE5881A5D78920032EC58 /* portrait-bg.png */,
+				880DE5891A5D78920032EC58 /* portrait-fg.png */,
 				88A38B691A500CB400A6544F /* test-red.png */,
 				88A38B6B1A50258500A6544F /* test-blue.png */,
 				880DE5821A530C320032EC58 /* church-bg.png */,
@@ -227,7 +233,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880DE58B1A5D78920032EC58 /* portrait-fg.png in Resources */,
 				88A38B6A1A500CB400A6544F /* test-red.png in Resources */,
+				880DE58A1A5D78920032EC58 /* portrait-bg.png in Resources */,
 				88A38B781A52EF7700A6544F /* artillerie-fg1.png in Resources */,
 				88A38B6C1A50258500A6544F /* test-blue.png in Resources */,
 				88A38B4B1A50020700A6544F /* Main.storyboard in Resources */,

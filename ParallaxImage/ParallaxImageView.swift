@@ -44,6 +44,12 @@ class ParallaxImageView: UIView {
         layers.append(ImageLayer(z:z, image: image.CGImage, x: 0, y: 0, width: width, height: height))
     }
     
+    func reset() {
+        layers.removeAll(keepCapacity: true)
+        maxWidth = 0
+        maxHeight = 0
+    }
+    
     override func drawRect(rect: CGRect) {
         
         let context = UIGraphicsGetCurrentContext()
@@ -152,6 +158,12 @@ class ParallaxImageView: UIView {
                     })
                 }
             }
+        })
+    }
+    
+    func redraw() {
+        dispatch_async( dispatch_get_main_queue(), {
+            self.setNeedsDisplay()
         })
     }
 }
