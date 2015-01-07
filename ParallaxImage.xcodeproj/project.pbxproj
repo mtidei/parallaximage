@@ -77,6 +77,8 @@
 		880DE57B1A52F0B10032EC58 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				88A38B691A500CB400A6544F /* test-red.png */,
+				88A38B6B1A50258500A6544F /* test-blue.png */,
 				880DE5821A530C320032EC58 /* church-bg.png */,
 				880DE5831A530C320032EC58 /* church-fg1.png */,
 				880DE5841A530C320032EC58 /* church-fg2.png */,
@@ -109,8 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				880DE57B1A52F0B10032EC58 /* images */,
-				88A38B6B1A50258500A6544F /* test-blue.png */,
-				88A38B691A500CB400A6544F /* test-red.png */,
 				88A38B651A50031900A6544F /* ParallaxImageView.swift */,
 				88A38B451A50020700A6544F /* AppDelegate.swift */,
 				88A38B471A50020700A6544F /* ViewController.swift */,
